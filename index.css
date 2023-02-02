@@ -1,0 +1,49 @@
+body {
+   font-family: cursive;
+   text-align: center;
+   background-color: #282c34;
+   color: rgb(0, 224, 0);
+   background-image: url(https://images.alphacoders.com/156/156261.jpg);
+ }
+ 
+ input[type="text"] {
+   font-size: 20px;
+   padding: 10px;
+   border-radius: 10px;
+   border: none;
+   background-color: #007219;
+   color: white;
+   text-align: center;
+   box-shadow: 2px -11px 10px #007200;
+   outline: none;
+ }
+ 
+ button {
+   font-size: 20px;
+   padding: 10px 20px;
+   border-radius: 10px;
+   background-color: #007206;
+   color: white;
+   border: none;
+   cursor: pointer;
+   box-shadow: 12px -10px 10px #007206;
+   outline: none;
+   transition: all 0.3s ease-in-out;
+ }
+ 
+ button:hover {
+   background-color: #006d0f;
+   transform: translateY(-2px);
+   box-shadow: 0 0 15px #007213;
+ }
+ 
+ button:active {
+   transform: translateY(2px);
+   box-shadow: none;
+ }
+ 
+ p {
+   font-size: 35px;
+   margin-top: 20px;
+   font-weight: bolder;
+ }
